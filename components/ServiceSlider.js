@@ -15,29 +15,29 @@ import 'swiper/css/pagination'
 // data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'UX Design',
+    description: "We can work together to create a seamless and enjoyable user experience in order to amaze your online visitors.",
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Web Design',
+    description: 'I specialize in designing websites that effectively generate leads for your company, helping to drive growth and success.',
   },
   {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxPencil2 />,
+    title: 'Front-end development',
+    description: 'I specialize in creating custom web designs using Webflow and then bring them to life using the latest technology',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Are you ready to finally get your traffic to the level your company deserves? Then let’s get started, and set up your SEO strategy today!',
+  },
+  {
+    icon: <RxRocket />,
+    title: 'Consultancy',
+    description: 'In addition to providing design services. I can also consult with you on topics such as design systems and product structure',
   },
 ];
 

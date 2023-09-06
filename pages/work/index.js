@@ -23,8 +23,7 @@ const Work = () => {
             variants={fadeIn('up',0.4)} initial='hidden'
             animate="show" exit="hidden"
             className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            A small gallery of recent projects chosen by me. I&apos;ve done them all together with amazing people from companies around the globe. It&apos;s only a drop in the ocean compared to the entire list.
           </motion.p>
         </div>
         <motion.div 

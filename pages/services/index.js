@@ -23,15 +23,17 @@ const Services = () => {
             My services <span className='text-accent'>.</span>
           </motion.h2>
           <motion.p 
-            variants={fadeIn('up',0.4)} initial='hidden'
-            animate="show" exit="hidden"
+            variants={fadeIn('up',0.4)} 
+            initial='hidden'
+            animate="show" 
+            exit="hidden"
             className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            I specializes in custom and affordable web design services that help small businesses grow! 
+            No matter your business goals, let’s design something stunning that you can be proud of. 
           </motion.p>
         </div>
         <motion.div 
-        variants={fadeIn('down',0.6)} 
+        variants={fadeIn('down',0.2)} 
         initial='hidden'
         animate="show" 
         exit="hidden" 

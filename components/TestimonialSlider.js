@@ -1,25 +1,25 @@
 // testimonial data
 const testimonialData = [
   {
-    image: '/t-avt-1.png',
-    name: 'Anne Smith',
-    position: 'Customer',
+    image: '/farouk.png',
+    name: 'Farouk',
+    position: 'Sales Manager',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Oussama is a rockstar software engineer. He is willing to work with you around the clock until he has captured your brief to perfection.',
   },
   {
-    image: '/t-avt-2.png',
-    name: 'Jane Doe',
-    position: 'Customer',
+    image: '/mahmoud.png',
+    name: 'Mahmoud Abdelkader',
+    position: 'Biomedical Engineer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Working with Oussama was a fantastic experience. I found him a professional with great experience and profound knowledge of business solutions. He understands complex issues even when outside of his immediate area of expertise. ',
   },
   {
     image: '/t-avt-3.png',
     name: 'Jhon Doe',
-    position: 'Customer',
+    position: 'HR manager',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "Oussama was one of the best web designer i've personally worked with. Full of ideas, great sencce of taste and always managed to provide me with beautiful and functional design work.",
   },
 ];
 
@@ -51,8 +51,8 @@ const TestimonialSlider = () => {
             <div className='w-full max-w-[300px] flex flex-col xl:justify-center
             items-center relative mx-auto xl:mx-0'>
               <div className='flex flex-col justify-center text-center'>
-                <div className='mb-2 mx-auto'>
-                  <Image src={person.image} width={100} height={100} alt=''/>
+                <div className='mb-2 mx-auto rounded'>
+                  <Image className='rounded' src={person.image} width={100} height={100} alt={person.name}/>
                 </div>
                 <div className='text-lg'>{person.name}</div>
                 <div className='text-[12px] uppercase font-extralight tracking-widest'>
