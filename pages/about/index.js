@@ -121,7 +121,7 @@ const About = () => {
     items-center xl:flex-row gap-x-6">
       <div className="flex-1 flex flex-col justify-center">
         <motion.h2 
-          variants={fadeIn('right',0.2)}
+          variants={fadeIn('right',0.1)}
           initial='hidden'
           animate='show'
           exit='hidden'
@@ -130,7 +130,7 @@ const About = () => {
           Captivating <span className="text-accent">stories</span> birth magnificent designs.
         </motion.h2>
         <motion.p
-          variants={fadeIn('right',0.4)}
+          variants={fadeIn('right',0.2)}
           initial='hidden'
           animate='show'
           exit='hidden' 
@@ -140,7 +140,7 @@ const About = () => {
           on digital products for business and consumer use.
         </motion.p>
         <motion.div 
-          variants={fadeIn('right',0.6)}
+          variants={fadeIn('right',0.3)}
           initial='hidden'
           animate='show'
           exit='hidden' 
@@ -182,7 +182,7 @@ const About = () => {
         </motion.div>
       </div>
       <motion.div 
-        variants={fadeIn('left',0.4)}
+        variants={fadeIn('left',0.2)}
         initial='hidden'
         animate='show'
         exit='hidden' 

@@ -15,22 +15,22 @@ import {
 const Socials = () => {
   return (
   <div className="flex items-center gap-x-5 text-lg">
-    <Link href={'https://twitter.com/OussamaHorrig'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://twitter.com/OussamaHorrig'} className="hover:text-accent transition-all duration-300" target="blank">
       <RiTwitterLine/>
     </Link>
-    <Link href={'https://www.linkedin.com/in/oussama-horrigue-69624b1b7/'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.linkedin.com/in/oussama-horrigue-69624b1b7/'} className="hover:text-accent transition-all duration-300" target="blank">
       <RiLinkedinBoxLine/>
     </Link>
-    <Link href={'https://www.facebook.com/oussama.horrigue'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.facebook.com/oussama.horrigue'} className="hover:text-accent transition-all duration-300" target="blank">
       <RiFacebookLine/>
     </Link>
-    <Link href={'https://dribbble.com/OussamaHorrigue'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://dribbble.com/OussamaHorrigue'} className="hover:text-accent transition-all duration-300" target="blank">
       <RiDribbbleLine/>
     </Link>
-    <Link href={'https://www.behance.net/oussamahorrigue'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.behance.net/oussamahorrigue'} className="hover:text-accent transition-all duration-300" target="blank">
       <RiBehanceLine/>
     </Link>
-    <Link href={'https://www.pinterest.com/horrigueouss/'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.pinterest.com/horrigueouss/'} className="hover:text-accent transition-all duration-300" target="blank">
       <RiPinterestLine/>
     </Link>
   </div>

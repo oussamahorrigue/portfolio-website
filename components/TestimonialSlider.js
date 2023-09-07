@@ -46,8 +46,7 @@ const TestimonialSlider = () => {
     {testimonialData.map((person,index)=>{
       return(
         <SwiperSlide key={index}>
-          <div className='flex flex-col items-center md:flex-row gap-x-8 h-full
-          px-16'>
+          <div className='flex flex-col items-center md:flex-row gap-x-8 h-full px-16 cursor-pointer'>
             <div className='w-full max-w-[300px] flex flex-col xl:justify-center
             items-center relative mx-auto xl:mx-0'>
               <div className='flex flex-col justify-center text-center'>

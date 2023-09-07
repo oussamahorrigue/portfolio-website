@@ -41,8 +41,8 @@ const serviceData = [
   },
 ];
 
-import {FreeMode, SwiperSlide, Swiper} from 'swiper/react';
-import {Pagination} from 'swiper';
+import {SwiperSlide, Swiper} from 'swiper/react';
+import { Pagination,FreeMode } from 'swiper';
 
 const ServiceSlider = () => {
   return (
@@ -57,9 +57,10 @@ const ServiceSlider = () => {
       spaceBetween:15,
     },
   }}
-    freeMode={true}
+   
     pagination={{
       clickable:true,
+      dynamicBullets: true,
     }}
     modules={{FreeMode,Pagination}}
     className="h-[240px] sm:h-[340px]"
