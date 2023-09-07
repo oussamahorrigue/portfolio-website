@@ -1,5 +1,7 @@
 // testimonial data
 import farouk from "../assets/farouk.png"
+import mahmoud from "../assets/mahmoud.png"
+import jhon from "../assets/t-avt-3.png"
 const testimonialData = [
   {
     image: farouk,
@@ -9,14 +11,14 @@ const testimonialData = [
       'Oussama is a rockstar software engineer. He is willing to work with you around the clock until he has captured your brief to perfection.',
   },
   {
-    image: '/images/mahmoud.png',
+    image: mahmoud,
     name: 'Mahmoud Abdelkader',
     position: 'Biomedical Engineer',
     message:
       'Working with Oussama was a fantastic experience. I found him a professional with great experience and profound knowledge of business solutions. He understands complex issues even when outside of his immediate area of expertise. ',
   },
   {
-    image: '/images/t-avt-3.png',
+    image: jhon,
     name: 'Jhon Doe',
     position: 'HR manager',
     message:

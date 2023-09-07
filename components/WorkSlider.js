@@ -1,23 +1,29 @@
 // data
+import thumb1 from "../assets/thumb1.jpg"
+import thumb2 from "../assets/thumb2.jpg"
+import thumb3 from "../assets/thumb3.jpg"
+import thumb4 from "../assets/thumb4.jpg"
+
+
 export const workSlides = {
   slides: [
     {
       images: [
         {
           title: 'title',
-          path: '/images/thumb1.jpg',
+          path: thumb1,
         },
         {
           title: 'title',
-          path: '/images/thumb2.jpg',
+          path: thumb2,
         },
         {
           title: 'title',
-          path: '/images/thumb3.jpg',
+          path: thumb3,
         },
         {
           title: 'title',
-          path: '/images/thumb4.jpg',
+          path: thumb4,
         },
       ],
     },
@@ -25,19 +31,19 @@ export const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/images/thumb4.jpg',
+          path: thumb4,
         },
         {
           title: 'title',
-          path: '/images/thumb1.jpg',
+          path: thumb1,
         },
         {
           title: 'title',
-          path: '/images/thumb2.jpg',
+          path: thumb2,
         },
         {
           title: 'title',
-          path: '/images/thumb3.jpg',
+          path: thumb3,
         },
       ],
     },
