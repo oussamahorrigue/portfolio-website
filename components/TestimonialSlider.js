@@ -1,21 +1,21 @@
 // testimonial data
 const testimonialData = [
   {
-    image: '/farouk.png',
+    image: '/images/farouk.png',
     name: 'Farouk',
     position: 'Sales Manager',
     message:
       'Oussama is a rockstar software engineer. He is willing to work with you around the clock until he has captured your brief to perfection.',
   },
   {
-    image: '/mahmoud.png',
+    image: '/images/mahmoud.png',
     name: 'Mahmoud Abdelkader',
     position: 'Biomedical Engineer',
     message:
       'Working with Oussama was a fantastic experience. I found him a professional with great experience and profound knowledge of business solutions. He understands complex issues even when outside of his immediate area of expertise. ',
   },
   {
-    image: '/t-avt-3.png',
+    image: '/images/t-avt-3.png',
     name: 'Jhon Doe',
     position: 'HR manager',
     message:
