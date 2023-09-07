@@ -1,7 +1,7 @@
 // testimonial data
 const testimonialData = [
   {
-    image: '/assets/farouk.png',
+    image: './portfolio-website/images/farouk.png',
     name: 'Farouk',
     position: 'Sales Manager',
     message:
