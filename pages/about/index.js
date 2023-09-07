@@ -83,15 +83,15 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: "Master's of science - Bialystok University of Technology, Poland",
+        title: "Msc - Bialystok University of Technology, Poland",
         stage: '2024',
       },
       {
-        title: "Master's of science - RPTU Kaiserslautern-Landau, Germany",
+        title: "Msc - RPTU Kaiserslautern-Landau, Germany",
         stage: '2023',
       },
       {
-        title: "Bachelor's of science - University of Monastir, Tunisia",
+        title: "Bsc - University of Monastir, Tunisia",
         stage: '2021',
       },
     ],
