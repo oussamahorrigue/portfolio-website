@@ -1,7 +1,8 @@
 // testimonial data
+import farouk from "../assets/farouk.png"
 const testimonialData = [
   {
-    image: './portfolio-website/images/farouk.png',
+    image: farouk,
     name: 'Farouk',
     position: 'Sales Manager',
     message:
