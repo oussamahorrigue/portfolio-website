@@ -87,7 +87,7 @@ const aboutData = [
         stage: '2024',
       },
       {
-        title: "Master's of science - Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau, Germany",
+        title: "Master's of science - RPTU Kaiserslautern-Landau, Germany",
         stage: '2023',
       },
       {

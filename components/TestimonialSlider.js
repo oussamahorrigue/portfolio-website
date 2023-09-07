@@ -15,7 +15,7 @@ const testimonialData = [
     name: 'Mahmoud Abdelkader',
     position: 'Biomedical Engineer',
     message:
-      'Working with Oussama was a fantastic experience. I found him a professional with great experience and profound knowledge of business solutions. He understands complex issues even when outside of his immediate area of expertise. ',
+      'Working with Oussama was fantastic.He is a professional with great experience and profound knowledge of business solutions. He understands complex issues even when outside of his immediate area of expertise. ',
   },
   {
     image: jhon,
