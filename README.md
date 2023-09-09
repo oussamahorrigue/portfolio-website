@@ -5,7 +5,7 @@
 <h4>Oussama Horrigue</h4>
 
 ## Link:
-<a href="https://oussamahorrigue.github.io/Portfolio" target="_blank"><h3>https://oussamahorrigue.github.io/Portfolio</h3></a>
+<a href="https://oussamahorrigue.github.io/portfolio-website" target="_blank"><h3>https://oussamahorrigue.github.io/portfolio-website</h3></a>
 
 
 ## Connect with me:
