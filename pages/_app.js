@@ -13,9 +13,8 @@ function MyApp({ Component, pageProps }) {
     <title>Oussama Horrigue</title>
     <meta name="google-site-verification" content="hWvja5zXBHRWOXK9h3GRJXzYx0XYii0PnJ_J3pJvgS4" />
     <meta name="description" content="Oussama horrigue's portfolio website" />
-    
     </Head>
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="sync">
       <motion.div key={router.route} className='h-full'>
         <Component {...pageProps} />
       </motion.div>

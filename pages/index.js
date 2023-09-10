@@ -6,9 +6,6 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
 
-
-
-
 const Home = () => {
   return (
   <div className="bg-primary/60 h-full">
