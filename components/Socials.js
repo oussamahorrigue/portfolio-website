@@ -8,7 +8,8 @@ import {
   RiBehanceLine,
   RiPinterestLine,
   RiTwitterLine,
-  RiLinkedinBoxLine
+  RiLinkedinBoxLine,
+  RiGithubFill
 } from 'react-icons/ri'
 
 
@@ -32,6 +33,9 @@ const Socials = () => {
     </Link>
     <Link href={'https://www.pinterest.com/horrigueouss/'} className="hover:text-accent transition-all duration-300" target="blank">
       <RiPinterestLine/>
+    </Link>
+    <Link href={'https://github.com/oussamahorrigue'} className="hover:text-accent transition-all duration-300" target="blank">
+      <RiGithubFill/>
     </Link>
   </div>
   )
